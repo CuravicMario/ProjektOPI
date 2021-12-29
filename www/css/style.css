@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(51, 49, 49);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p{
+    color: white;
+}
+
+.orange{
+    color: rgb(238, 110, 25);
+}
+
+.login{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(37, 36, 36);
+    padding: 75px 200px;
+    border-radius: 5%;
+}
+
+.submit-button{
+    background-color: rgb(238, 110, 25);
+    border-width: 0px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-top: 6%;
+    margin-left: 200px;
+}
+
+.form-label{
+    font-size: 18px;
+}
+
+.left-neg{
+    margin-left: -50px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 7px 0px;
+    background-color: rgb(163, 160, 160);
+    border: none;
+    border-radius: 5%;
+    color: white;
+}
+
+.dvorana{
+    display:inline-block;
+    width: 30%;
+    background-color: rgb(37, 36, 36);
+    border-radius: 5%;
+    margin: 15px;
+    height: 300px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 50px 0px;
+    word-wrap: break-word;
+}
+.dvorana.dva{
+    height: 350px;
+}
+
+.naziv{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10%px;
+    font-weight: bold;
+}
+
+.opis{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.reserve-button{
+    background-color: rgb(238, 110, 25);
+    border-width: 0px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 4%;
+    margin-left: 0px;
+}
+
+.neg-bot{
+    margin-bottom: -10px;
+}
+
+.text-right{
+    
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+.plus {
+    --b:4px; /* the thickness */
+    width:200px; /* the size */
+    aspect-ratio:1/1;
+    border:0px dashed rgb(238, 110, 25); /* the outer space */
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),rgb(37, 36, 36) 90deg,rgb(238, 110, 25) 0) 
+      calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+      calc(50%  + var(--b))   calc(50%  + var(--b));
+    display:inline-block;
+  }
+
+.center{
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border:2px dashed rgb(238, 110, 25); /* the outer space */
+}
+
+.reminder{
+    color: rgb(238, 110, 25);
+    font-size: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(238, 110, 25);
+}
+
+.undeline{
+    text-decoration: underline;
+}
+
+.dvorane-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(37, 36, 36);
+    padding: 75px 200px;
+    border-radius: 5%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .login{
+        left: 57% !important;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .form-label{
+        font-size: 16px;
+    }
+
+    .submit-button{
+    
+        font-size: 16px;
+    }
+
+    .dvorana{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        height: 250px;
+    }
+    .dvorana.dva{
+        height: 300px;
+    }
+
+    .plus{
+        width: 75px;
+    }
+
+    .dvorane-form{
+        width: 80%;
+        left: 60%;
+        padding: 20px 200px;
+    }
+}
