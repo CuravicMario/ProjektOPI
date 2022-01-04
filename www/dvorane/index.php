@@ -47,7 +47,7 @@ session_start();
                     <p class='opis'>Odjel: ".$row["odjel_id"]."</p> 
                     
                     <div class='text-right'>
-                    <button class='reserve-button'>Rezerviraj</button>
+                    <button class='reserve-button'>Rezervacije</button>
                     </div>
                     </div>          
                 ");
